@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  @font-face {
+    font-family: 'Shabnam';
+    src: url('https://ghadaam-bucket.storage.iran.liara.space/font/Shabnam.woff');
+    src: url('https://ghadaam-bucket.storage.iran.liara.space/font/Shabnam.woff') format('embedded-opentype'),
+       url('https://ghadaam-bucket.storage.iran.liara.space/font/Shabnam.woff') format('woff2'),
+       url('https://ghadaam-bucket.storage.iran.liara.space/font/Shabnam.woff') format('woff'),
+       url('https://ghadaam-bucket.storage.iran.liara.space/font/Shabnam.woff') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  body {
+    line-height: 1.6;
+    coler: #2d1045;
+        font-family: "Shabnam";
+  }
+  
+  header {
+    background: linear-gradient(45deg, #007bff, #6f42c1);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .ali {
+    width: 90%;
+    margin: auto;
+    max-width: 1200px;
+  }
+
+ h1{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  
+ }
+   
+  .navbar {
+    display: flex;
+    justify-content: center;
+    background: #007bff;
+    margin-top: 10px;
+  }
+  
+  .navbar li {
+    list-style: none;
+
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    display: block;
+  }
+}
+
+  .navbar a:hover {
+    background: #9500ff;
+  }
+
+  .section {
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .services-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .card {
+    background: #f4f4f4;
+    padding: 20px;
+    border: 5px solid #ff0000;
+    border-radius: 50px;
+    width: 300px;
+  }
+       
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+ 
+  form input,
+  form textarea,
+  form button {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+
+  form button {
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+       
+  form button:hover {
+    background: #5dfe00;
+  }
+
+  footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+  }
+
+  @media (max-width: 768px) {
+    .services-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  } 

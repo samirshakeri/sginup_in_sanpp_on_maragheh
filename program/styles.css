@@ -1,0 +1,100 @@
+body {
+    direction: rtl;
+    margin: 0;
+    padding: 15px;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 15px 0;
+    line-height: 1.3;
+}
+
+ul {
+    padding-right: 20px;
+}
+
+/* فرم */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+input, textarea, button {
+    width: 100%;
+    max-width: 400px;
+    margin: 8px 0;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+button {
+    background: #00a650;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+/* نقشه */
+#map-canvas {
+    width: 100% !important;
+    height: 300px !important;
+    margin: 20px 0;
+}
+
+/* مدیا کوئریها */
+@media (min-width: 768px) {
+    body {
+        font-size: 1.1rem;
+        padding: 20px;
+    }
+    
+    h1 { font-size: 2rem; }
+    h2 { font-size: 1.8rem; }
+    h3 { font-size: 1.6rem; }
+    
+    #map-canvas {
+        height: 400px !important;
+    }
+}
+
+@media (min-width: 992px) {
+    body {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    img[src="img/download.jpg"],
+    img[src="/img/وکتور-لوگو-کارتونی-اسنپ-1.png"] {
+        max-width: 80%;
+    }
+    
+    #map-canvas {
+        height: 450px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 { font-size: 1.6rem; }
+    h2 { font-size: 1.4rem; }
+    h3 { font-size: 1.2rem; }
+    
+    input, textarea, button {
+        font-size: 0.9rem;
+    }
+    
+    #map-canvas {
+        height: 250px !important;
+    }
+}
