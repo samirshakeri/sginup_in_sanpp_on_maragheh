@@ -1,0 +1,119 @@
+body{
+  background-color: #d4e09b;
+  color: black;
+font-family: 'Shabnam';
+}
+
+h5{
+  font-size: larger;
+  margin-bottom: 15px;
+}
+
+hr{
+background-color: black;
+}
+
+input{
+font-family:"Shabnam";
+font-size: larger;
+border: 1px solid #ddd;
+border-radius: 5px;
+}
+.sahand{
+gap: 100px;
+}
+
+textarea{
+  font-size: large;
+border-radius:4px ;
+font-family:"Shabnam";
+}
+
+button{
+width: 250px;
+height: 45px;
+font-family: "Shabnam";
+font-size: large;
+border-radius: 50px;
+}
+
+.samir{
+  background-color: greenyellow;
+}
+
+.saeid{
+background-color: red;
+}
+
+h3{
+  font-size: xx-large;
+  font-family:"Shabnam" 
+}
+
+img{
+border-radius:35px ;
+}
+
+@font-face {
+  font-family: 'Shabnam';
+  src: url('https://ghadaam-bucket.storage.iran.liara.space/font/Shabnam.woff');
+  src: url('https://ghadaam-bucket.storage.iran.liara.space/font/Shabnam.woff') format('embedded-opentype'),
+     url('https://ghadaam-bucket.storage.iran.liara.space/font/Shabnam.woff') format('woff2'),
+     url('https://ghadaam-bucket.storage.iran.liara.space/font/Shabnam.woff') format('woff'),
+     url('https://ghadaam-bucket.storage.iran.liara.space/font/Shabnam.woff') format('truetype');
+  font-style: normal;
+}
+
+
+/* نقشه */
+#map-canvas {
+  width: 100% !important;
+  height: 300px !important;
+  margin: 20px 0;
+}
+
+/* مدیا کوئریها */
+@media (min-width: 768px) {
+  body {
+      font-size: 1.1rem;
+      padding: 20px;
+  }
+  
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.8rem; }
+  h3 { font-size: 1.6rem; }
+  
+  #map-canvas {
+      height: 400px !important;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+      max-width: 1200px;
+      margin: 0 auto;
+  }
+  
+  img[src="img/download.jpg"],
+  img[src="/img/وکتور-لوگو-کارتونی-اسنپ-1.png"] {
+      max-width: 80%;
+  }
+  
+  #map-canvas {
+      height: 450px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 { font-size: 1.6rem; }
+  h2 { font-size: 1.4rem; }
+  h3 { font-size: 1.2rem; }
+  
+  input, textarea, button {
+      font-size: 0.9rem;
+  }
+  
+  #map-canvas {
+      height: 400px !important;
+  }
+}
